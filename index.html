@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="ccc.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+</head>
+
+<body>
+    <main>
+        <header>
+            <div class="burger">
+                <div class="burgerline bl1"></div>
+                <div class="burgerline bl2"></div>
+                <div class="burgerline bl3"></div>
+            </div>
+            <ul class="nuvlist">
+                <li class="point">
+                    главаная
+                </li>
+                <li class="point">
+                    магазин
+                </li>
+                <li class="point">
+                    игры
+                </li>
+                <li class="point">
+                    тостеры
+                </li>
+                <li class="point">
+                    войти/выйти
+                </li>
+            </ul>
+            <div class="themes">
+                <div class="themeblack">
+                    <img src="moonpng.png" alt="" class="themage1">
+                </div>
+                <div class="themewhite">
+                    <img src="sunpng.png" alt="" class="themage">
+                </div>
+            </div>
+        </header>
+        <section>
+            <div class="timer">
+                <p>прошло секунд: <span class="seconds">
+                        0
+                    </span></p>
+                <button class="START">start</button>
+                <button class="STOP">stop it</button>
+                <button class="RESET">REEEEESEEEEET</button>
+                <a href="#bottom"><button type="button" class="btn2">Вниз</button></a>
+            </div>
+            <h1 class="TIME"></h1>
+            <h1 class="shoptitle"></h1>
+            <img src="28218471_1.jpg" alt="" class="shopimage">
+            <h3>тостер4000 это просто нечто купите и жарьте за раз целых 7 кусков хлеба!</h3>
+            <h2 class="shopmoney">29</h2>
+            <button class="buy">Купить</button>
+        </section>
+        <section class="video">
+            <video autoplay muted loop controls width="500px" class="" id="video">
+                <source src="vidos1.mp4">
+            </video>
+            <div class="contentvideo">
+                <button class="btn btn-primary m-4 pause">
+                    пауза!
+                </button>
+                <button class="btn btn-primary m-4 unmute">
+                    вкл звук
+                </button>
+                <button class="btn btn-primary m-4 next">
+                    следующий
+                </button>
+                <button class="btn btn-primary m-4 prev">
+                    предыдущий
+                </button>
+            </div>
+        </section>
+        <section class="parallax">
+            <div class="content">
+                <h1 class="tost">тостееееееееер</h1>
+            </div>
+        </section>
+        <section class="cards d-flex gap-5 m-5 m-auto w-50 mt-5 mb-5">
+            <div class="card" style="width: 18rem;">
+                <img src="bootstrap.png" class="card-img-top" alt="ops not imgage!">
+                <div class="card-body">
+                    <h5 class="card-title">Bootstrap</h5>
+                    <p class="card-text">bootstrap позволяет быстро применять стили в классах тегов.</p>
+                    <a href="https://bootstrap-4.ru/docs/5.3/components/card/" class="btn btn-primary">больше о
+                        Bootstrap👇</a>
+                </div>
+            </div>
+            <div class="card" style="width: 18rem;">
+                <img src="javascript-logo.png" class="card-img-top" alt="oh no nothing image!">
+                <div class="card-body">
+                    <h5 class="card-title">JS script</h5>
+                    <p class="card-text">Java Script единственый язык который делает сайт функциональным.</p>
+                    <a href="https://learn.javascript.ru/" class="btn btn-primary">Больше о JS тут👇</a>
+                </div>
+            </div>
+            <div class="card" style="width: 18rem;">
+                <img src="1c83987f67110ec2e9c68.png" class="card-img-top" alt="not your day bro!">
+                <div class="card-body">
+                    <h5 class="card-title">html</h5>
+                    <p class="card-text">HTML язык сайтов</p>
+                    <a id="bottom" href="https://developer.mozilla.org/ru/" class="btn btn-primary">о HTML тут👇</a>
+                </div>
+            </div>
+        </section>
+
+    </main>
+    <script src="script.js"></script>
+    <script src="animate.js"></script>
+    <script src="time.js"></script>
+    <script src="timer.js"></script>
+    <script src="theme.js"></script>
+    <script src="burgertime.js"></script>
+    <script src="vidos.JS"></script>
+</body>
+
+</html>
